@@ -36,12 +36,6 @@ Hi, I'm **Trisha Paul**, a passionate **Data Science** enthusiast pursuing an **
 - Created an end-to-end **ML-powered chatbot** for Bitcoin, Ethereum, and Solana analysis.
 - Integrated **Binance** and **CoinGecko APIs** for real-time data and volatility predictions.
 
-### 🍽️ [Zomato Data Analysis - Alfido Tech Internship](https://github.com/Trishapaul5/ALFIDO-TECH-INTERNSHIP-ZOMATO-DATA-ANALYSIS-TASK-1)
-- Conducted in-depth analysis of Zomato dataset using **Python** in a Kaggle Notebook.
-- Delivered actionable insights on restaurant trends and customer preferences.
-
-### 🎥 [Movie Rating Prediction - CodSoft Internship](https://github.com/Trishapaul5/CODSOFT-INTERNSHIP-TASK-1-MOVIE-RATING-PREDICTION)
-- Built a **machine learning model** to predict movie ratings, showcasing data preprocessing and model evaluation skills.
 
 🔎 Explore all [17 repositories](https://github.com/Trishapaul5?tab=repositories) for more projects, including **Loan Approval Prediction**, **Instagram Analysis**, and **Southeast Asian Economic Analysis**!
 
