@@ -1,133 +1,78 @@
-#stack operation using list in python 
-class Stack:
-    """
-    Implementation of a stack in Python using lists.
-    """
+# 👋 Welcome to My GitHub Profile! 
 
-    def __init__(self):
-        """
-        Initializes an empty stack.
-        """
-        self.stack_data = []  # Empty list to store the data for the stack.
+Hi, I'm **Trisha Paul**, a passionate **Data Science** enthusiast pursuing an **M.Sc. in Big Data Analytics** at St. Joseph's University, Bengaluru. With a **B.Sc. in Economics Honours** from Calcutta University, I blend a strong foundation in **economics**, **mathematics**, and **statistics** with advanced skills in **data analytics**, **machine learning**, and **big data technologies**. I'm excited about leveraging data to uncover insights and drive impactful decisions, and I'm actively seeking **data science opportunities** to grow my career.
 
-    def push(self, value):
-        """
-        Pushes/adds a value to the end of the stack.
-        :param value: object - A value of any data type that needs to be stored in the stack.
-        """
-        self.stack_data.append(value)
+🔗 **Connect with me**: [LinkedIn](https://linkedin.com/in/trisha-paul-151157214) | [Email](mailto:trishapaul2502@gmail.com)
 
-    def pop(self):
-        """
-        Pops/removes the last value from the stack.
-        Prints a message if the stack is empty.
-        """
-        if len(self.stack_data) == 0:
-            print("Stack is empty. Nothing to pop.")
-        else:
-            return self.stack_data.pop()
+---
 
-    def display_stack(self):
-        """
-        Displays the elements present in the stack by printing each element.
-        If the stack is empty, prints a message.
-        """
-        if len(self.stack_data) == 0:
-            print("Stack is empty.")
-        else:
-            print("Stack contents:", self.stack_data)
+## 🚀 About Me
+- 🎓 **Education**: M.Sc. Big Data Analytics (2024–2026, CGPA: 8.0) | B.Sc. Economics Honours (2021–2024, CGPA: 7.5)
+- 💻 **Technical Skills**: 
+  - **Programming**: Python, R, C, C++, HTML, CSS, Stata
+  - **Libraries & Frameworks**: NumPy, Pandas, Scikit-learn, Plotly, Seaborn
+  - **Big Data Tools**: Apache Spark, Hadoop, Hive, Sqoop, Pig
+  - **Visualization & BI**: Power BI, Advanced Excel, Matplotlib
+  - **Databases**: MongoDB, SQL
+- 📊 **Domains**: Econometrics, Financial Economics, Time Series Analysis, Machine Learning, Data Visualization
+- ✍️ **Research**: Published term papers on **Female Labor Force Participation** and **Poverty, Inequality, and Malnutrition in India**, using regression and statistical analysis
+- 💡 **Soft Skills**: Communication, Teamwork, Problem-Solving, Active Listening
+- 🌍 **Languages**: English, Hindi, Bengali
 
+---
 
-def main():
-    """
-    The main function of the program.
-    """
-    stack_obj = Stack()  # Creating the stack object.
-    stack_obj.display_stack()  # Display the contents of the stack (initially empty).
+## 🌟 Featured Projects
 
-    # Adding values to the stack:
-    stack_obj.push(10)
-    stack_obj.push(1)
-    stack_obj.push(34)
-    stack_obj.push(56)
-    
-    stack_obj.display_stack()  # Display the contents of the stack after adding elements.
+### 📈 [NIFTY 50 Volatility Forecasting](https://github.com/Trishapaul5/nifty50_volatility_forecasting)
+- Analyzed 10+ years of NIFTY 50 data (2,500+ records) using **Apache Spark** and **Python**.
+- Built a **GARCH(1,1)** model to predict volatility (Log-Likelihood: -3508.04, AIC: 7024.08).
+- Visualized trends with **Plotly** and **Seaborn**, leveraging **Spark SQL** for insights.
 
-    # Popping a value from the stack:
-    popped_value = stack_obj.pop()
-    print(f"Popped value: {popped_value}")
+### 📊 [HR Analytics Dashboard - Power BI](https://github.com/Trishapaul5/HR-Analytics-Dashboard--POWERBI)
+- Developed a 2-page interactive **Power BI** dashboard for 300+ employee records.
+- Visualized attrition, gender diversity, and recruitment metrics, reducing report load time by 40% with optimized **DAX** calculations.
 
-    # Display stack after popping:
-    stack_obj.display_stack()
+### 💸 [Cryptocurrency Analyst Chatbot](https://github.com/Trishapaul5)
+- Created an end-to-end **ML-powered chatbot** for Bitcoin, Ethereum, and Solana analysis.
+- Integrated **Binance** and **CoinGecko APIs** for real-time data and volatility predictions.
 
-if __name__ == "__main__":
-    main()
-# QUEUE OPERATION USING LISTS 
-class Queue:
-    """
-    Implementation of a queue in Python using lists.
-    """
+### 🍽️ [Zomato Data Analysis - Alfido Tech Internship](https://github.com/Trishapaul5/ALFIDO-TECH-INTERNSHIP-ZOMATO-DATA-ANALYSIS-TASK-1)
+- Conducted in-depth analysis of Zomato dataset using **Python** in a Kaggle Notebook.
+- Delivered actionable insights on restaurant trends and customer preferences.
 
-    def __init__(self):
-        """
-        Initializes an empty queue.
-        """
-        self.queue_data = []  # Empty list to store the data for the queue.
+### 🎥 [Movie Rating Prediction - CodSoft Internship](https://github.com/Trishapaul5/CODSOFT-INTERNSHIP-TASK-1-MOVIE-RATING-PREDICTION)
+- Built a **machine learning model** to predict movie ratings, showcasing data preprocessing and model evaluation skills.
 
-    def push(self, value):
-        """
-        Pushes/adds a value to the end of the queue.
-        :param value: object - A value of any data type that needs to be stored in the queue.
-        """
-        self.queue_data.append(value)
+🔎 Explore all [17 repositories](https://github.com/Trishapaul5?tab=repositories) for more projects, including **Loan Approval Prediction**, **Instagram Analysis**, and **Southeast Asian Economic Analysis**!
 
-    def pop(self):
-        """
-        Pops/removes the first value from the queue (FIFO).
-        Prints a message if the queue is empty.
-        """
-        if len(self.queue_data) == 0:
-            print("Queue is empty. Nothing to pop.")
-        else:
-            return self.queue_data.pop(0)
+---
 
-    def display_queue(self):
-        """
-        Displays the elements present in the queue by printing each element.
-        If the queue is empty, prints a message.
-        """
-        if len(self.queue_data) == 0:
-            print("Queue is empty.")
-        else:
-            print("Queue contents:", self.queue_data)
+## 📜 Research & Publications
+- **Female Labor Force Participation and Human Development in South Asia**  
+  Analyzed correlations between education, labor participation, and HDI using statistical tools.
+- **Poverty, Inequality, and Malnutrition in India**  
+  Conducted regression-based analysis to study socio-economic disparities in nutrition outcomes.
 
+---
 
-def main():
-    """
-    The main function of the program.
-    """
-    queue_obj = Queue()  # Creating the queue object.
-    queue_obj.display_queue()  # Display the contents of the queue (initially empty).
+## 💼 Experience
+- **Data Science Intern** @ NovaNectar Services Pvt. Ltd. (Jul 2024–Aug 2024)  
+  Analyzed datasets with **Python** to deliver client insights.
+- **Academic Peer Tutor** @ St. Joseph's University (Jul 2024–Dec 2024)  
+  Mentored students in **economics** and **mathematics**.
+- **Data Entry Volunteer** @ CRY NGO (Mar 2025–May 2025)  
+  Managed databases and created **Excel** charts for outreach reports.
 
-    # Adding values to the queue:
-    queue_obj.push(10)
-    queue_obj.push(1)
-    queue_obj.push(34)
-    queue_obj.push(56)
+---
 
-    queue_obj.display_queue()  # Display the contents of the queue after adding elements.
+## 🎯 Career Goals
+I'm passionate about applying **data science** and **econometrics** to solve real-world problems in finance, economics, and social impact. I'm open to **data science roles** and excited to collaborate on innovative projects. Feel free to reach out for opportunities or discussions!
 
-    # Popping values from the queue:
-    popped_value = queue_obj.pop()
-    print(f"Popped value: {popped_value}")
-    
-    queue_obj.display_queue()  # Display the contents after popping.
+---
 
-    popped_value = queue_obj.pop()
-    print(f"Popped value: {popped_value}")
+## 📫 Get in Touch
+- 📧 Email: [trishapaul2502@gmail.com](mailto:trishapaul2502@gmail.com)
+- 🔗 LinkedIn: [trisha-paul-151157214](https://linkedin.com/in/trisha-paul-151157214)
+- 🌐 GitHub: [Trishapaul5](https://github.com/Trishapaul5)
 
-    queue_obj.display_queue()  # Display the contents after popping another element.
-
-
-if __name__ == "__main__":
-    main()
+⭐️ **Fun Fact**: I love blending my economics background with data science to uncover hidden patterns in financial and social datasets!
