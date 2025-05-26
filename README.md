@@ -39,25 +39,6 @@ Hi, I'm **Trisha Paul**, a passionate **Data Science** enthusiast pursuing an **
 
 🔎 Explore all [17 repositories](https://github.com/Trishapaul5?tab=repositories) for more projects, including **Loan Approval Prediction**, **Instagram Analysis**, and **Southeast Asian Economic Analysis**!
 
----
-
-## 📜 Research & Publications
-- **Female Labor Force Participation and Human Development in South Asia**  
-  Analyzed correlations between education, labor participation, and HDI using statistical tools.
-- **Poverty, Inequality, and Malnutrition in India**  
-  Conducted regression-based analysis to study socio-economic disparities in nutrition outcomes.
-
----
-
-## 💼 Experience
-- **Data Science Intern** @ NovaNectar Services Pvt. Ltd. (Jul 2024–Aug 2024)  
-  Analyzed datasets with **Python** to deliver client insights.
-- **Academic Peer Tutor** @ St. Joseph's University (Jul 2024–Dec 2024)  
-  Mentored students in **economics** and **mathematics**.
-- **Data Entry Volunteer** @ CRY NGO (Mar 2025–May 2025)  
-  Managed databases and created **Excel** charts for outreach reports.
-
----
 
 ## 🎯 Career Goals
 I'm passionate about applying **data science** and **econometrics** to solve real-world problems in finance, economics, and social impact. I'm open to **data science roles** and excited to collaborate on innovative projects. Feel free to reach out for opportunities or discussions!
